@@ -24,7 +24,7 @@ FRIEND1_API_URL = "https://task-api1-mdz5.onrender.com/public-tasks"
 FRIEND1_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoic3R1ZGVudCIsImV4cCI6MTc3NzAyNjA4Nn0.Zju5n8yBeaM7B8RGshv7xkz2iC374me_XL-MRG5RBUo"
  
 # กลุ่มที่ 2 — ใส่ URL และ token ของกลุ่มสอง
-FRIEND2_API_URL = "https://flask-api-mini-1.onrender.com//public-tasks"
+FRIEND2_API_URL = "https://flask-api-mini-1.onrender.com/public-tasks"
 FRIEND2_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc3NzAyMzEzMCwianRpIjoiNDg3NTBjN2UtZjJiMi00YWExLWFjMjgtMDUxMTQxODk4OWU4IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImFkbWluIiwibmJmIjoxNzc3MDIzMTMwLCJjc3JmIjoiNWY3NTVhMzAtMjZiNC00OTg4LWFiODAtMTdhMGQxNzdhZjU4IiwiZXhwIjoxNzc3MDI0MDMwfQ.RSChD8Z0yzqYkRFsSnXER9fOSwOsa_qzpXo4vg8KJWM"
 def fetch_friend_tasks(url, token):
     try:
