@@ -25,7 +25,7 @@ FRIEND1_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoic3R1ZGVudCIsIm
  
 # กลุ่มที่ 2 — ใส่ URL และ token ของกลุ่มสอง
 FRIEND2_API_URL = "https://flask-api-mini-1.onrender.com//public-tasks"
-FRIEND2_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc3NzAyMjY3MSwianRpIjoiM2YzY2QwYzYtZWYzNi00ZjIwLWExMjAtMTlhOTJkYjdmMGEyIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImFkbWluIiwibmJmIjoxNzc3MDIyNjcxLCJjc3JmIjoiZDlkNDNmMDktNGEwNi00ZTdmLWJlMmUtMGE2NTNiNzIyZWJmIiwiZXhwIjoxNzc3MDIzNTcxfQ.zI66GGYnJrmWOnlMZUAk0ctFSNJ7YZpACZefFNPVOSg"
+FRIEND2_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc3NzAyMzEzMCwianRpIjoiNDg3NTBjN2UtZjJiMi00YWExLWFjMjgtMDUxMTQxODk4OWU4IiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImFkbWluIiwibmJmIjoxNzc3MDIzMTMwLCJjc3JmIjoiNWY3NTVhMzAtMjZiNC00OTg4LWFiODAtMTdhMGQxNzdhZjU4IiwiZXhwIjoxNzc3MDI0MDMwfQ.RSChD8Z0yzqYkRFsSnXER9fOSwOsa_qzpXo4vg8KJWM"
 def fetch_friend_tasks(url, token):
     try:
         headers = {"Authorization": f"Bearer {token}"}
