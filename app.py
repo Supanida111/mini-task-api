@@ -20,13 +20,12 @@ next_id = 3
  
 # ========== API เพื่อน 2 กลุ่ม ==========
 # กลุ่มที่ 1 — ใส่ URL และ token ของกลุ่มแรก
-FRIEND1_API_URL = "https://task-api-1i5q.onrender.com/tasks"
-FRIEND1_TOKEN = "ใส่ token กลุ่ม1 ตรงนี้"
+FRIEND1_API_URL = "https://task-api1-mdz5.onrender.com/tasks"
+FRIEND1_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoic3R1ZGVudCIsImV4cCI6MTc3NzAyNDc2OX0.KNiC1AP1b3QNon3dQ5vOyEE0imx5tOHCb_OH9CkErbo"
  
 # กลุ่มที่ 2 — ใส่ URL และ token ของกลุ่มสอง
-FRIEND2_API_URL = "https://ใส่-url-กลุ่ม2.onrender.com/tasks"
-FRIEND2_TOKEN = "ใส่ token กลุ่ม2 ตรงนี้"
- 
+FRIEND2_API_URL = "https://flask-api-mini-1.onrender.com/tasks"
+FRIEND2_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc3NzAyMTQ2OCwianRpIjoiNTgwZjkzZmQtMGVkNS00ZmJlLThmNWEtZjE2YjJiNmJmYTExIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImFkbWluIiwibmJmIjoxNzc3MDIxNDY4LCJjc3JmIjoiYzJjOWQ5NjYtOWMyNS00YWI1LTljNzgtN2FlYWUwNTllODk1IiwiZXhwIjoxNzc3MDIyMzY4fQ.bnwtcJjt0Z-5MLXGMM84KNWIELSKDt-xPt_nkATdBZ4"
 def fetch_friend_tasks(url, token):
     try:
         headers = {"Authorization": f"Bearer {token}"}
